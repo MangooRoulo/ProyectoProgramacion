@@ -1,0 +1,48 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.carousel-item img {
+    max-height: 350px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 12px;
+    border: 1.5px solid #bdbdbd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+#librosCarousel {
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1.5px solid #bdbdbd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.card,
+.story-section,
+.login-section {
+    border: 1.5px solid #bdbdbd;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.login-section {
+    background: #e3f2fd;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #1976d2;
+    border: 1.5px solid #bdbdbd;
+}
+
+.btn-primary:hover {
+    background-color: #1565c0;
+    border: 1.5px solid #1976d2;
+}
